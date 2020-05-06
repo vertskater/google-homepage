@@ -1,0 +1,36 @@
+
+.nav-top {
+    height: 50px;
+    display: block;
+    flex-direction: row;
+    margin-top: 15px;
+    
+    li{
+        justify-items: center;
+        list-style-type: none;
+        float: left;
+        padding-left: 10px;
+        a{
+            padding-top: 10px;
+            text-decoration: none;
+            color: #555555;
+        }
+    }
+    ul{
+        display: flex;
+        justify-content: flex-end;
+        margin: 5px;
+    }
+    .fa-th{
+        font-size: 1.2em;
+    }
+}
+
+.pic-prof img{
+    height:25px;
+    border-radius: 50%;
+}
+.content{
+    display: grid;
+    
+}
