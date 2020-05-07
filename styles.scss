@@ -1,4 +1,6 @@
-
+body{
+    font-family: arial, sans-serif;
+}
 .nav-top {
     margin-top: 15px;
     
@@ -71,12 +73,53 @@
         background-color: #f0f0f0;
         text-decoration: none;
         color: #222;
-        font-family: arial, sans-serif;
+        
         font-size: small;
         &:hover{
             border: 1px solid darkgray;
             box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
         }
         
+    }
+    
+}
+.footer-country{
+    background-color: #f0f0f0;
+    position: fixed;
+    bottom: 50px;
+    left: 0%;
+    right: 0%;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    p{
+        color: #222;
+        font-size: 9pt;
+        padding-left: 40px;
+    }
+}
+.footer-nav-menu{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 50px;
+    background-color: #f0f0f0;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    .footer-nav-right{
+        justify-self: end;
+    }
+    li{
+        list-style-type: none;
+        float: left;
+        padding-right: 20px;
+        font-size: 9pt;
+        a{
+            text-decoration: none;
+            color: #222;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
     }
 }
