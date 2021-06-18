@@ -3,7 +3,6 @@ body{
 }
 .nav-top {
     margin-top: 15px;
-    
     li
     {
         justify-items: center;
@@ -17,19 +16,17 @@ body{
             display: block;
         }
     }
-    
     ul{
         display: flex;
         justify-content: flex-end;
         margin: 0px;
         padding: 0px;
-        
+
     }
     .fa-th{
         font-size: 1.2em;
     }
 }
-
 .pic-prof img{
     height: 40px;
     border-radius: 50%;
@@ -48,9 +45,9 @@ body{
         border-radius: 50px;
         height: 40px;
         margin-top: 20px;
-        
+
         &:hover{
-            box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);  
+            box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
         }
         .inputform{
             border: none;
@@ -73,15 +70,15 @@ body{
         background-color: #f0f0f0;
         text-decoration: none;
         color: #222;
-        
+
         font-size: small;
         &:hover{
             border: 1px solid darkgray;
             box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
         }
-        
+
     }
-    
+
 }
 .footer-country{
     background-color: #f0f0f0;
